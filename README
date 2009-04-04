@@ -4,6 +4,18 @@ Git and Github course at RubyLearning
 Exercise 5 - Hosting gems
 Example project that adds a method "writesize" to String.
 
+Usage
+-----
+
+Open up irb and type:
+
+require 'rubygems'
+=> true
+require 'string_extend'
+=> true
+'teste'.writesize
+=> 5
+
 Author
 ------
 Carlos A. da Silva
